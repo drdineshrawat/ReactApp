@@ -44,7 +44,7 @@ const ViewUser=()=>{
             <h2>Email--{email}</h2>
             <h2>Phone Number--{phone}</h2>
             <h2>Web Site Name--{website}</h2>
-            <Link to="/Contact">Back</Link>
+         <Link to="/Contact">Back</Link>
         </div>
     </div>
     
