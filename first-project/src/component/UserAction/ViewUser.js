@@ -35,9 +35,9 @@ const ViewUser=()=>{
                     <h1>View User page</h1>
                 </div>
             </div>
-                    <div className="header ml-4">
-                      <h2>View A User</h2>
-                    </div>
+             <div className="header ml-4">
+                  <h2>View A User</h2>
+             </div>
             <h2>UserId--{id}</h2>
             <h2>Name--{name}</h2>
             <h2>User Name--{username}</h2>
