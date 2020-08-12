@@ -44,13 +44,13 @@ class About extends React.Component{
         return(
           <div>
               {
-                  list.map(listOfUser=>
+                    list.map(listOfUser=>
                     <div><h2>{listOfUser.name}</h2></div>
                     )
               }
 
-              <h1>{list.name}{list.username}</h1>
-              <h1>{name}{username}</h1>
+              {/* <h1>{list.name}{list.username}</h1>
+              <h1>{name}{username}</h1> */}
           </div>  
         
         )

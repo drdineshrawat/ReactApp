@@ -14,28 +14,28 @@ const Home =() =>{
                 </div>
                 <div className="row">
                     <div className="col">
-                    <div class="login-form">
+                    <div className="login-form">
                         <div className="header">
                           <h2>Login</h2>
                         </div>
                   <div className="form-div">
                     <form action="#">
-                    <div class="form-inputtext-space">
+                    <div className="form-inputtext-space">
                       <input 
                         type="text" 
-                        class="inputbox" 
+                        className="inputbox" 
                         name="uname" 
                         placeholder="User Name"/>
                     </div>
-                    <div class="form-inputtext-space">
+                    <div className="form-inputtext-space">
                       <input 
                         type="password" 
-                        class="inputbox" 
+                        className="inputbox" 
                         name="psswd" 
                         placeholder="Password"/>
                     </div>
-                    <div class="form-button-space form-button">
-                      <button type="submit"  class="btn btn-primary">Add</button>
+                    <div className="form-button-space form-button">
+                      <button type="submit"  className="btn btn-primary">Add</button>
                     </div>
                   </form>
                         </div>
